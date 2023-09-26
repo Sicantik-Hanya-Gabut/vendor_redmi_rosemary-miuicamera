@@ -6,18 +6,18 @@
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/camera/configs/permissions/default-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/default-permissions-miuicamera.xml \
-    vendor/xiaomi/camera/configs/permissions/miuicamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-whitelist.xml \
-    vendor/xiaomi/camera/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
+    vendor/redmi/rosemary-miuicamera/configs/permissions/default-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/default-permissions-miuicamera.xml \
+    vendor/redmi/rosemary-miuicamera/configs/permissions/miuicamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-whitelist.xml \
+    vendor/redmi/roseamry-miuicamera/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
 
 # Device-Features
 PRODUCT_COPY_FILES += \
-     vendor/xiaomi/camera/configs/device_features/rosemary.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/rosemary.xml \
-     vendor/xiaomi/camera/configs/device_features/secret.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/secret.xml \
-     vendor/xiaomi/camera/configs/device_features/maltose.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/maltose.xml \
-     vendor/xiaomi/camera/configs/device_features/rosemary.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/rosemary.xml \
-     vendor/xiaomi/camera/configs/device_features/secret.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/secret.xml \
-     vendor/xiaomi/camera/configs/device_features/maltose.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/munch.xml
+     vendor/redmi/rosemary-miuicamera/configs/device_features/rosemary.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/rosemary.xml \
+     vendor/redmi/rosemary-miuicamera/configs/device_features/secret.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/secret.xml \
+     vendor/redmi/rosemary-miuicamera/configs/device_features/maltose.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/maltose.xml \
+     vendor/redmi/rosemary-miuicamera/configs/device_features/rosemary.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/rosemary.xml \
+     vendor/redmi/rosemary-miuicamera/configs/device_features/secret.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/secret.xml \
+     vendor/redmi/rosemary-miuicamera/configs/device_features/maltose.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/munch.xml
 
 # Properties
 PRODUCT_SYSTEM_PROPERTIES += \

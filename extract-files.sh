@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=camera
-VENDOR=xiaomi
+DEVICE=rosemary-miuicamera
+VENDOR=redmi
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

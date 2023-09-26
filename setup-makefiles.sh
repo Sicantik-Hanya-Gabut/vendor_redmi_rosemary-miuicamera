@@ -8,9 +8,9 @@
 
 set -e
 
-DEVICE=camera
-DEVICE_COMMON=camera
-VENDOR=xiaomi
+DEVICE=rosemary-miuicamera
+DEVICE_COMMON=rosemary-miuicamera
+VENDOR=redmi
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -29,7 +29,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "munch"
+write_headers "rosemary"
 sed -i 's|device/|vendor/|g' "$ANDROIDBP" "$ANDROIDMK" "$BOARDMK" "$PRODUCTMK"
 
 cat << 'EOF' >> "$ANDROIDMK"
