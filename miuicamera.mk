@@ -29,4 +29,4 @@ PRODUCT_SYSTEM_PROPERTIES += \
 BOARD_VENDOR_SEPOLICY_DIRS += \
     vendor/xiaomi/camera/sepolicy/vendor
 
-$(call inherit-product, vendor/xiaomi/camera/camera-vendor.mk)
+$(call inherit-product, vendor/redmi/rosemary-miuicamera/rosemary-miuicamera-vendor.mk)
